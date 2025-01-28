@@ -1,0 +1,40 @@
+:root {
+  --main-color: #3883C7; 
+  --secondary-color: #609BD2; 
+}
+
+body {
+ margin: 0;
+}
+
+.main-title {
+  width: 100%;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.main-links {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--main-color);
+  opacity: 0.5;
+  overflow: auto;
+  height: 32px;
+  line-height: 32px;
+}
+
+.main-link {
+  padding: 15px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.main-link:hover {
+  background-color: blue;
+}
+
+.home-text {
+  padding: 30px;
+}
+
