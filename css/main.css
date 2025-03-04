@@ -1,6 +1,7 @@
 :root {
   --main-color: #3883C7; 
   --secondary-color: #609BD2; 
+  --tertairy-color: #1330EC; 
 }
 
 body {
@@ -18,20 +19,26 @@ body {
   bottom: 0;
   width: 100%;
   background-color: var(--main-color);
-  opacity: 0.5;
   overflow: auto;
   height: 32px;
   line-height: 32px;
+  overflow: hidden;
 }
 
 .main-link {
   padding: 15px;
   border-left: 1px solid black;
   border-right: 1px solid black;
+  color: white;
+  text-decoration: none;
 }
 
 .main-link:hover {
-  background-color: blue;
+  background-color: var(--secondary-color);
+}
+
+.main-link__active {
+  background-color: var(--tertairy-color);
 }
 
 .home-text {
