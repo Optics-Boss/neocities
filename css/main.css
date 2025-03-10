@@ -127,3 +127,6 @@ button {
   cursor: pointer;
 }
 
+.no-bottom {
+  bottom: auto;
+}
