@@ -13,6 +13,13 @@
   text-align: left;
 }
 
+.fitness-header-image {
+  width: 65px;
+  top: -30px;
+  float: right;
+  position: relative;
+}
+
 .fitness-text {
   margin: 20px;
 }
