@@ -1,0 +1,18 @@
+.tools-container {
+  width: 50%;
+  margin: auto;
+  border: 1px var(--main-color) solid;
+  margin-bottom: 15px;
+}
+
+.tools-header {
+  padding: 10px;
+  margin: 0;
+  background-color: var(--main-color);
+  color: #fff;
+  text-align: left;
+}
+
+.tools-text {
+  margin: 20px;
+}

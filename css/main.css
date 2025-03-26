@@ -4,12 +4,13 @@
   --tertairy-color: #1330EC; 
 }
 
-html {
- cursor: url('../images/clubbell.svg'), auto;
-}
+/* html { */
+/*  cursor: url('../images/clubbell.svg'), auto; */
+/* } */
 
 body {
  margin: 0;
+ background: url("../images/background.png");
 }
 
 .main-title {
