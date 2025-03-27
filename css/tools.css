@@ -3,6 +3,7 @@
   margin: auto;
   border: 1px var(--main-color) solid;
   margin-bottom: 15px;
+  background: white;
 }
 
 .tools-header {

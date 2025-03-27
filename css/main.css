@@ -17,6 +17,9 @@ body {
   width: 100%;
   text-align: center;
   color: var(--main-color);
+  background: white;
+  padding: 10px 0px;
+  margin: 20px 0;
 }
 
 .main-links {
@@ -47,35 +50,23 @@ body {
 }
 
 .home-text {
-  padding: 15px;
+  margin: 20px;
 }
 
-#home-container {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px solid #d3d3d3;
-  text-align: center;
+.home-container {
   width: 50%;
-  left: 25%;
+  margin: auto;
+  border: 1px var(--main-color) solid;
+  margin-bottom: 15px;
+  background: white;
 }
 
-#home-header {
+.home-header {
   padding: 10px;
-  cursor: move;
-  z-index: 10;
+  margin: 0;
   background-color: var(--main-color);
   color: #fff;
   text-align: left;
-}
-
-#home-exit {
-  float: right;
-  font-size: 30px;
-  line-height: 30px;
-  position: relative;
-  top: -8px;
-  cursor: pointer;
 }
 
 button {
@@ -101,35 +92,6 @@ button {
   padding: 0 15px;
   margin: 5px 0 15px 0;
   text-align: left;
-}
-
-#updates-container {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px solid #d3d3d3;
-  text-align: center;
-  width: 40%;
-  top: 30%;
-  left: 30%;
-}
-
-#updates-header {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: var(--main-color);
-  color: #fff;
-  text-align: left;
-}
-
-#updates-exit {
-  float: right;
-  font-size: 30px;
-  line-height: 30px;
-  position: relative;
-  top: -8px;
-  cursor: pointer;
 }
 
 .no-bottom {
