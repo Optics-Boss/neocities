@@ -19,7 +19,7 @@ body {
 }
 
 .main-links {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: var(--main-color);
@@ -43,6 +43,10 @@ body {
 
 .main-link__active {
   background-color: var(--tertairy-color);
+}
+
+.main-space {
+  height: 50px;
 }
 
 .home-text {
